@@ -1,2 +1,4 @@
 FROM ubuntu:latest
-ADD compressed.tar /
+RUN touch test
+ENTRYPOINT [ "ls" ]
+CMD [ "--help" ]
