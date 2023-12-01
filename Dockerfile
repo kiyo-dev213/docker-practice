@@ -1,2 +1,2 @@
 FROM ubuntu:latest
-RUN mkdir new_dir
+RUN mkdir created_in_Dockerfile
